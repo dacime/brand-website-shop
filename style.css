@@ -165,8 +165,11 @@ header .browse__button:hover .dropdown__container {
 }
 
 header .fa-caret-down {
-    display: inline-block;
-    padding-left: 8px;
+    font-family: 'Font Awesome';
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
     color: #838383;
 }
 
@@ -340,4 +343,157 @@ header .header__banner .banner__container .banner__content p .fashion {
     font-weight: 900;
     letter-spacing: 0.025em;
 
+}
+
+/*MENU*/
+
+.main__box {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    margin-top: 95px;
+    margin-bottom: 100px;
+}
+
+.left__main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 21px;
+}
+
+.left__main__first {
+    width: 560px;
+    height: 542px;
+    background-color: #000000;
+    background-image: url(./img/left__main__first.png);
+    margin-bottom: 20px;
+}
+
+.left__first_banner {
+    width: 175px;
+    height: 82px;
+    background-color: #ffffff;
+    margin-top: 26px;
+}
+
+.left__first_banner p {
+    padding-top: 16px;
+    padding-left: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.for__men__text {
+    font-size: 30px;
+    color: #f16d7f;
+}
+
+.left__second__banner {
+    margin-top: 26px;
+    width: 225px;
+    height: 82px;
+    background-color: #ffffff;
+}
+
+.left__second__banner p {
+    padding-top: 18px;
+    padding-left: 16px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.for__accesories__text {
+    font-size: 30px;
+    color: #f16d7f;
+}
+
+
+.left__main__second {
+    width: 560px;
+    height: 261px;
+    background-color: #dadad2;
+    background-image: url(./img/left__main__second.png);
+}
+
+
+
+.right__main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right__main__first {
+    width: 560px;
+    height: 261px;
+    background-color: #000000;
+    background-image: url(./img/right__main__first.png);
+    margin-bottom: 20px;
+}
+
+.right__first__banner {
+    margin-top: 26px;
+    width: 162px;
+    height: 82px;
+    background-color: #ffffff
+}
+
+.right__first__banner p {
+    padding-top: 19px;
+    padding-left: 16px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.for__women__text {
+    font-size: 30px;
+    color: #f16d7f;
+}
+
+
+
+
+.right__main__second {
+    width: 560px;
+    height: 542px;
+    background-color: #000000;
+    background-image: url(./img/right__main__second.png);
+}
+
+.right__second__banner {
+    margin-top: 26px;
+    width: 180px;
+    height: 82px;
+    background-color: #ffffff;
+}
+
+.right__second__banner p {
+    padding-top: 16px;
+    padding-left: 21px;
+    font-family: Lato;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+}
+
+.for__kids__text {
+    font-size: 30px;
+    color: #f16d7f;
 }
