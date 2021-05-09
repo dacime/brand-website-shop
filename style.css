@@ -305,20 +305,24 @@ header hr {
 }
 
 
-header .header__banner .banner__container .banner__content {
+
+
+
+.banner__content {
     display: flex;
     height: 92px;
     padding-top: 276px;
+
 }
 
-header .header__banner .banner__container .banner__content .vertical__bar {
+.vertical__bar {
     width: 12px;
     height: 98px;
     margin-top: 10px;
     background-color: #f16d7f;
 }
 
-header .header__banner .banner__container .banner__content p {
+.banner__content p {
     font-family: "Lato Black";
     font-size: 40px;
     font-weight: 400;
@@ -328,7 +332,7 @@ header .header__banner .banner__container .banner__content p {
     padding-top: 0;
 }
 
-header .header__banner .banner__container .banner__content p .the__brand {
+.the__brand {
     font-family: Lato;
     font-size: 60px;
     line-height: 1.2;
@@ -337,7 +341,7 @@ header .header__banner .banner__container .banner__content p .the__brand {
     color: #222222;
 }
 
-header .header__banner .banner__container .banner__content p .fashion {
+.fashion {
     color: #f16d7f;
     font-family: Lato;
     font-size: 40px;
@@ -351,7 +355,6 @@ header .header__banner .banner__container .banner__content p .fashion {
 
 .main__box {
     display: flex;
-    justify-content: space-between;
     margin-top: 95px;
     margin-bottom: 100px;
 }
@@ -360,6 +363,7 @@ header .header__banner .banner__container .banner__content p .fashion {
     display: flex;
     padding-right: 21px;
     flex-wrap: wrap;
+    width: 50%;
 }
 
 .left__main__first {
@@ -433,6 +437,7 @@ header .header__banner .banner__container .banner__content p .fashion {
     display: flex;
     margin-right: 21px;
     flex-wrap: wrap;
+    max-width: 50%;
 }
 
 .right__main__first {
@@ -527,19 +532,67 @@ header .header__banner .banner__container .banner__content p .fashion {
     color: #9f9f9f;
 }
 
+.add__to__cart {
+    width: 123px;
+    height: 39px;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid #ffffff;
+}
 
 
 .first__row {
     display: flex;
-    margin: 0 auto;
     justify-content: space-between;
-    max-width: 1120px;
 }
 
-.border__row {
-    border: 1 solid white;
+.second__row {
+    display: flex;
+    padding-top: 122px;
+}
+
+.row {
+    position: relative;
     width: 261px;
     height: 280px;
-    margin-left: auto;
-    margin-right: auto
+}
+
+.border__row__1-2 {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.border__row__1-3 {
+    padding-right: 32px;
+}
+
+.border__row__2-2 {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.border__row__2-3 {
+    padding-right: 32px;
+}
+
+.text__block_row {
+    padding-top: 19px;
+    padding-left: 10px;
+}
+
+.range-txt {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.range-txt p {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #f16d7f;
 }
