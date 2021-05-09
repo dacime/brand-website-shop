@@ -556,6 +556,48 @@ header hr {
     height: 280px;
 }
 
+.row:hover button {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+
+.button__txt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 98px;
+    margin-left: 70px;
+}
+
+.button__txt p {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.button__txt button {
+    opacity: 0;
+    position: absolute;
+    width: 123px;
+    height: 39px;
+    top: 100px;
+    transition: opacity 0.3s;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid #ffffff;
+}
+
+.button__txt {
+    background-image: url(./img/cart__fditems.png);
+    width: 23px;
+    height: 22px;
+}
+
+.mid__fditems a {
+    text-decoration: none;
+}
+
 .border__row__1-2 {
     padding-left: 32px;
     padding-right: 32px;
@@ -574,25 +616,38 @@ header hr {
     padding-right: 32px;
 }
 
-.text__block_row {
-    padding-top: 19px;
-    padding-left: 10px;
+.text__block__row {
+    display: flex;
 }
 
 .range-txt {
     font-family: Lato;
     font-size: 13px;
     line-height: 1.2;
-    font-weight: bold;
+    font-weight: 400;
     text-transform: uppercase;
     color: #222222;
 }
 
 .range-txt p {
+    padding-top: 17px;
     font-family: Lato;
     font-size: 16px;
     line-height: 1.2;
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
     color: #f16d7f;
+}
+
+.first__row .picpic {
+    width: 261px;
+    height: 280px;
+    background-color: #e9e9e9;
+}
+
+.picpic:hover {
+    width: 263px;
+    height: 281px;
+    opacity: .5;
+    background: url(img/layer.png);
 }
