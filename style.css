@@ -71,6 +71,7 @@ header form {
     border: 1px solid #e6e6e6;
     border-radius: 3px 0px 0px 3px;
     position: relative;
+    background: no-repeat right/10% url(./img/fa_caret.png);
 }
 
 .browse__button .dropdown__container {
@@ -513,7 +514,7 @@ header hr {
     text-align: center;
 }
 
-.fditems h1 {
+.fditems__h1 {
     font-family: Lato;
     font-size: 30px;
     line-height: 54px;
@@ -523,7 +524,7 @@ header hr {
     margin-bottom: -16px;
 }
 
-.fditems p {
+.fditems__p {
     font-family: Lato;
     font-size: 14px;
     line-height: 54px;
@@ -532,122 +533,120 @@ header hr {
     color: #9f9f9f;
 }
 
-.add__to__cart {
-    width: 123px;
-    height: 39px;
-    background-color: rgba(255, 255, 255, 0.0);
-    border: 1px solid #ffffff;
-}
-
-
-.first__row {
+.featured_box {
+    margin-top: 60px;
+    margin-bottom: 60px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.second__row {
-    display: flex;
-    padding-top: 122px;
+.featured_item_box:hover .featured_product_img {
+    filter: brightness(50%);
 }
 
-.row {
+.featured_item_box:hover .add_to_cart {
+    display: flex;
+}
+
+.featured_item_box:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.featured_item_box {
     position: relative;
-    width: 261px;
-    height: 280px;
+    width: 263px;
+    margin-bottom: 40px;
 }
 
-.row:hover button {
-    opacity: 1;
-    transition: opacity 0.3s;
+.featured_product_img {
+    width: 100%;
 }
 
-
-.button__txt {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 98px;
-    margin-left: 70px;
-}
-
-.button__txt p {
-    font-family: Lato;
-    font-size: 13px;
-    line-height: 1.2;
-    font-weight: 700;
-    color: #ffffff;
-}
-
-.button__txt button {
-    opacity: 0;
-    position: absolute;
-    width: 123px;
-    height: 39px;
-    top: 100px;
-    transition: opacity 0.3s;
-    background-color: rgba(255, 255, 255, 0.0);
-    border: 1px solid #ffffff;
-}
-
-.button__txt {
-    background-image: url(./img/cart__fditems.png);
-    width: 23px;
-    height: 22px;
-}
-
-.mid__fditems a {
+.featured_product_info {
+    width: 263px;
+    display: block;
     text-decoration: none;
 }
 
-.border__row__1-2 {
-    padding-left: 32px;
-    padding-right: 32px;
+.featured_product_text {
+    padding: 20px 15px;
 }
 
-.border__row__1-3 {
-    padding-right: 32px;
-}
-
-.border__row__2-2 {
-    padding-left: 32px;
-    padding-right: 32px;
-}
-
-.border__row__2-3 {
-    padding-right: 32px;
-}
-
-.text__block__row {
-    display: flex;
-}
-
-.range-txt {
-    font-family: Lato;
+.featured_product_name {
+    color: #222222;
     font-size: 13px;
-    line-height: 1.2;
     font-weight: 400;
     text-transform: uppercase;
-    color: #222222;
+    margin-bottom: 15px;
 }
 
-.range-txt p {
-    padding-top: 17px;
-    font-family: Lato;
+.featured_product_price {
+    color: #f16d7f;
     font-size: 16px;
-    line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
-    color: #f16d7f;
 }
 
-.first__row .picpic {
-    width: 261px;
-    height: 280px;
-    background-color: #e9e9e9;
+.add_to_cart {
+    position: absolute;
+    top: 98px;
+    display: none;
+    justify-content: center;
+    width: 100%;
 }
 
-.picpic:hover {
-    width: 263px;
-    height: 281px;
-    opacity: .5;
-    background: url(img/layer.png);
+
+.add_cart_link {
+    border: 1px solid #ffffff;
+    padding: 8px 12px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.add_cart_img {
+    margin-right: 7px;
+}
+
+.featured_items_h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #222222;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.featured_items_h3 {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #9f9f9f;
+    padding-top: 16px;
+    text-align: center;
+}
+
+.featured_link {
+    text-decoration: none;
+}
+
+.browse_product {
+    background-color: #f16d7f;
+    padding: 18px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    margin-bottom: 113px;
+    margin-top: 20px;
+}
+
+.browse_button_inside {
+    display: flex;
+    justify-content: center;
 }
