@@ -485,10 +485,13 @@
     <!-- MID CONTENT -->
 
 
+    <!-- LEFT MENU-BLOCK-->
+
+
     <section class="container product-page__content">
         <nav class="product-menu">
             <details class="product-menu__details">
-                <summary class="product-menu_headline"> Category </summary>
+                <summary class="product-menu_headline"><span class="product__text__color"> Category </span></summary>
                 <ul class="product-menu_ul">
                     <a href="#" class="product-menu_link"><li class="product-menu__item">Accessories</li></a>
                     <a href="#" class="product-menu_link"><li class="product-menu__item">Bags</li></a>
@@ -506,7 +509,7 @@
                 </ul>
               </details>
               <details class="product-menu__details">
-                <summary class="product-menu_headline"> Brand </summary>
+                <summary class="product-menu_headline"><span class="product__text__color"> Brand </span></summary>
                 <ul class="product-menu_ul">
                     <a href="#" class="product-menu_link"><li class="product-menu__item">Accessories</li></a>
                     <a href="#" class="product-menu_link"><li class="product-menu__item">Bags</li></a>
@@ -524,7 +527,7 @@
                 </ul>
               </details>
               <details class="product-menu__details">
-                <summary class="product-menu_headline"> Designer </summary>
+                <summary class="product-menu_headline"><span class="product__text__color"> Designer </span></summary>
                 <ul class="product-menu_ul">
                     <a href="#" class="product-menu_link"><li class="product-menu__item">Accessories</li></a>
                     <a href="#" class="product-menu_link"><li class="product-menu__item">Bags</li></a>
@@ -543,32 +546,47 @@
               </details>
               </div>
         </nav>
-        
+
+
+        <!-- HAT -->
+
+
         <div class="product-page_right-section">
             <div class="product-page__filters">
         <div class="product-page__filters_positioning">
-            <div>
-                <h5 class="product-page__filters_h5">Trending now</h5>
-                <p>
+            <div class="trending__block block__center">
+                <p class="product-page__trending style__txt">Trending now</p>
+                <div class="center__block">
                     <a href="#" class="product-page__filters_link">Bohemian </a>|
                     <a href="#" class="product-page__filters_link">Floral </a>|
-                    <a href="#" class="product-page__filters_link">Lace </a>|
+                    <a href="#" class="product-page__filters_link">Lace </a>| <br>
                     <a href="#" class="product-page__filters_link">Floral </a>|
                     <a href="#" class="product-page__filters_link">Lace </a>|
                     <a href="#" class="product-page__filters_link">Bohemian </a>
-                </p>
+                </div>
             </div>
-            <div>
-                <h5 class="product-page__filters_h5">Size</h5>
-                <p>
-                </p>
+            <div class="size__block block__center">
+                <p class="product-page__size style__txt">Size</p>
+                <div class="center__block">
+                    <input class="checkbox__size top__size__check" type="checkbox"><span class="checkbox__txt top__size__txt">S</span>
+                    <input class="checkbox__size top__size__check" type="checkbox"><span class="checkbox__txt top__size__txt">XS</span>
+                    <input class="checkbox__size top__size__check" type="checkbox"><span class="checkbox__txt top__size__txt">XXS</span>
+                    <input class="checkbox__size top__size__check" type="checkbox"><span class="checkbox__txt top__size__txt">M</span> <br>
+                    <input class="checkbox__size" type="checkbox"><span class="checkbox__txt">L</span>
+                    <input class="checkbox__size" type="checkbox"><span class="checkbox__txt">XL</span>
+                    <input class="checkbox__size" type="checkbox"><span class="checkbox__txt">XXL</span>
+                </div>
             </div>
         
-            <div>
-                <h5 class="product-page__filters_h5">Price</h5>
-                <p>
-        
-                </p>
+            <div class="price__block block__center">
+                <p class="product-page__price style__txt">Price</p>
+                <div class="center__block">
+                    <input class="range__master" type="range" min="0" max="100" step="1" value="50">
+                    <div class="text__under__pricerange">
+                    <div class="left__price__txt"><p class="checkbox__txt">52$</p></div>
+                    <div class="right__price__txt"><p class="checkbox__txt">400$</p></div>
+                    </div>
+                </div>
             </div>
         
         </div>
@@ -718,6 +736,98 @@
             </article>
         </div>
         </section>
+
+        <!-- SUBSCRIBE BLOCK --> 
+
+
+<section class="subscribe__block__product">
+    <div class="sub__block__overlay">
+        <div class="container sub__inside">
+            <figure class="founder_quote">
+                <img src="./img/circle__women__face.png" alt="Bin Burhan" class="quote_face">
+                <figcaption class="quote_caption">
+                    "Vestibulum quis porttitor dui! Quisque viverra nunc mi, 
+                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium"<br>
+                    <div class="pink_text_dhaka">Bin Burhan</span> <br>
+                    <div class="caption_dhaka">Dhaka, Bd</span> <br>
+                    <a href="#"><button class="quote_button"></button></a>
+                    <a href="#"><button class="quote_button middle_quote_button"></button></a>
+                    <a href="#"><button class="quote_button"></button></a>
+                </figcaption>
+            </figure>
+    
+            <form class="subscribe_newsletter" action="#">
+                <h3 class="subscribe_h3">Subscribe</h3>
+                <h4 class="subscribe_h4">For our newsletter and promotion</h4>
+                <div class="subscribe_cluster">
+                <input class="email_for_promo" type="email" placeholder="Enter Your Email">
+                <button class="email_for_promo_button" type="submit">Subscribe</button>
+                </div>
+                </form>
+    </div>
+    </div>
+    </section>
+
+    <footer>
+        <div class="container footer">
+        <article class="footer_article">
+            <div class="footer_left">
+            <a href=index.html><img src="./img/logo.png" alt="Главная" class="footer_brand_img"></a>
+            <div class="footer_brand">BRAN<span class="pink_text">D</span></div>
+            </div>
+            <p class="footer_p">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. 
+                <br><br>
+                Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize. 
+             </p>
+        </article>
+        <nav class="footer_menu">
+            <div>
+    <h4 class="footer_h4">Company</h4>
+    <ul class="footer_ul">
+        <li class="footer_li"><a href="#" class="footer_menu_a">Home</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Shop</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">About</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">How&nbsp;it&nbsp;works</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Contact</a></li>
+    </ul>
+    </div>
+    <div>
+    <h4 class="footer_h4">Information</h4>
+    <ul class="footer_ul">
+        <li class="footer_li"><a href="#" class="footer_menu_a">Terma&Conditions</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Privacy&nbsp;Policy</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">How&nbsp;to&nbsp;Buy</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">How&nbsp;to&nbsp;Sell</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Promotion</a></li>
+    </ul>
+    </div>
+    <div>
+    <h4 class="footer_h4">Shop&nbsp;Category</h4>
+    <ul class="footer_ul">
+        <li class="footer_li"><a href="#" class="footer_menu_a">Men</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Women</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Child</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Apparel</a></li>
+        <li class="footer_li"><a href="#" class="footer_menu_a">Browse&nbsp;all</a></li>
+    </ul>
+    </div>
+        </nav>
+    </div>
+    <div class="footer_footer">
+        <div class="container footer_footer_blocks">
+            <p class="copywright_block">
+                © 2017 Brand All Rights Reserved
+            </p>
+    <div class="social_blocks">
+        <a href="#" class="socmedia_icon"> <i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="socmedia_icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="socmedia_icon"><i class="fa-linkedin"></i></a>
+        <a href="#" class="socmedia_icon"><i class="fab fa-pinterest"></i></a>
+        <a href="#" class="socmedia_icon"><i class="fab fa-google-plus-g"></i></a>
+    </div>
+        </div>
+    </div>
+    </footer>
 
 
 </body>

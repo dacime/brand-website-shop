@@ -1023,6 +1023,12 @@ header hr {
     margin-top: 91px;
 }
 
+.subscribe__block__product {
+    background-image: url(./img/sub__bgc.png);
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
 .sub__block__overlay {
     background-color: rgba(242, 242, 242, 0.5);
 }
@@ -1439,6 +1445,13 @@ header hr {
     padding: 23px 0 40px 0;
 }
 
+
+
+/* >>>>> PRODUCT PAGE <<<<< */
+
+
+/* LEFT MENU-BLOCK */
+
 .product-menu__item {
     font-size: 14px;
     line-height: 33px;
@@ -1466,7 +1479,7 @@ header hr {
     line-height: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #ef5b70;
+    color: #6f6e6e;
     border-left: 5px solid #ef5b70;
     list-style: none;
     padding-left: 11px;
@@ -1475,6 +1488,13 @@ header hr {
     margin-bottom: 18px;
     margin-right: 20px;
     padding-bottom: 10px;
+
+
+
+}
+
+.product-menu__details[open] .product__text__color {
+    color: #ef5b70;
 }
 
 .product-menu_headline::-webkit-details-marker {
@@ -1488,6 +1508,7 @@ header hr {
 .product-menu__details[open] .product-menu_headline:after {
     content: " ▼";
 }
+
 
 .product-page__content {
     margin-top: 59px;
@@ -1564,4 +1585,106 @@ header hr {
 
 .product-page_sort-by_details[open] .product-page_sort-by_summary:after {
     content: " ▼";
+}
+
+
+/* RATING TREND PRICE HAT */
+
+
+.product-page__filters_positioning {
+    display: flex;
+}
+
+.style__txt {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6f6e6e;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.product-page__filters_link {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #6f6e6e;
+    text-decoration: none;
+}
+
+.product-page__trending {
+    text-align: left;
+}
+
+.product-page__size {
+    text-align: left;
+}
+
+.product-page__price {
+    text-align: left;
+}
+
+.block__center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+}
+
+.checkbox__size {
+    width: 13px;
+    height: 13px;
+    background-color: #ffffff;
+    border: 1px solid #ebebeb;
+    margin-right: 9px;
+}
+
+.checkbox__txt {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6f6e6e;
+    padding-right: 23px;
+}
+
+.center__block {
+    padding-top: 25px;
+    padding-bottom: 41px;
+}
+
+.top__size__check {
+    padding-top: 13px;
+}
+
+.top__size__txt {
+    padding-top: 15px;
+}
+
+
+.right__price__txt {
+    float: right;
+}
+
+.left__price__txt {
+    float: left;
+}
+
+.text__under__pricerange {
+    padding-top: 21px;
+}
+
+.range__master {
+    width: 262px;
+    height: 6px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
+
+
+
+.product-page_sort-by {
+    margin-top: 41px;
+    margin-bottom: 58px;
 }
